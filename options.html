@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Analyzer Options</title>
+    <style>
+      input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Code Analyzer Options</h1>
+    <form id="optionsForm">
+      <label for="apiKey">API Key:</label>
+      <input type="text" id="apiKey" name="apiKey" placeholder="Enter your ChatGPT API key" required />
+      <br />
+      <br />
+      <label for="languages">Preferred Languages/Frameworks:</label>
+      <input type="text" id="languages" name="languages" placeholder="e.g., JavaScript, Python, React" required />
+      <br />
+      <br />
+      <button type="submit">Save</button>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
